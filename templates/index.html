@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Portfolio — Python Backend Developer{% endblock %}
+
+{% block content %}
+
+{% include "includes/header.html" %}
+
+{% include "includes/hero.html" %}
+
+<div class="section-intro">
+    <span class="eyebrow" data-i18n="sections.eyebrow">Selected Work</span>
+    <h1 class="overview" data-i18n="sections.overview">Projects &amp; Bots</h1>
+</div>
+
+{% include "includes/nav_buttons.html" %}
+
+<!-- Sites Section -->
+<div id="section-sites" class="content-section active">
+    <div class="projects-grid">
+        {% for project in sites %}
+            {% include "includes/project_card.html" %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Bots Section -->
+<div id="section-bots" class="content-section">
+    <div class="projects-grid">
+        {% for project in bots %}
+            {% include "includes/project_card.html" %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="section-about" class="content-section">
+    {% include "includes/about.html" %}
+</div>
+
+{% include "includes/footer.html" %}
+
+{% endblock %}

@@ -1,0 +1,76 @@
+{
+  "en": {
+    "header": {
+      "title": "Portfolio",
+      "nav": {
+        "sites": "Sites",
+        "bots": "Telegram Bots",
+        "about": "More About Me"
+      }
+    },
+    "hero": {
+      "greeting": "Hi, I'm",
+      "title": "Python Backend Developer",
+      "bio": "Specializing in FastAPI, SQLAlchemy 2.0, and Aiogram"
+    },
+    "sections": {
+      "eyebrow": "Selected Work",
+      "overview": "Projects & Bots"
+    },
+    "projects": {
+      "viewLive": "View Live",
+      "viewCode": "View Code",
+      "viewBot": "Open Bot"
+    },
+    "slider": {
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "about": {
+      "title": "About Me",
+      "bio": "I'm a Python backend developer with a passion for building robust, scalable web applications and Telegram bots. I specialize in FastAPI, SQLAlchemy 2.0, and Aiogram, creating efficient server-side solutions with clean architecture.",
+      "skillsTitle": "Skills & Technologies",
+      "contactTitle": "Contact"
+    },
+    "footer": {
+      "copy": "\u00a9 2026 Portfolio"
+    }
+  },
+  "ru": {
+    "header": {
+      "title": "\u041f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e",
+      "nav": {
+        "sites": "\u0421\u0430\u0439\u0442\u044b",
+        "bots": "Telegram \u0411\u043e\u0442\u044b",
+        "about": "\u041e\u0431\u043e \u043c\u043d\u0435"
+      }
+    },
+    "hero": {
+      "greeting": "\u041f\u0440\u0438\u0432\u0435\u0442, \u044f",
+      "title": "Python Backend \u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+      "bio": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u044e\u0441\u044c \u043d\u0430 FastAPI, SQLAlchemy 2.0 \u0438 Aiogram"
+    },
+    "sections": {
+      "eyebrow": "\u0418\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0440\u0430\u0431\u043e\u0442\u044b",
+      "overview": "\u041f\u0440\u043e\u0435\u043a\u0442\u044b \u0438 \u0411\u043e\u0442\u044b"
+    },
+    "projects": {
+      "viewLive": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0441\u0430\u0439\u0442",
+      "viewCode": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043a\u043e\u0434",
+      "viewBot": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0431\u043e\u0442\u0430"
+    },
+    "slider": {
+      "prev": "\u041d\u0430\u0437\u0430\u0434",
+      "next": "\u0412\u043f\u0435\u0440\u0451\u0434"
+    },
+    "about": {
+      "title": "\u041e\u0431\u043e \u043c\u043d\u0435",
+      "bio": "\u042f Python backend \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a, \u0443\u0432\u043b\u0435\u0447\u0451\u043d\u043d\u044b\u0439 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435\u043c \u043d\u0430\u0434\u0451\u0436\u043d\u044b\u0445, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043c\u044b\u0445 \u0432\u0435\u0431-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0438 Telegram \u0431\u043e\u0442\u043e\u0432. \u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u044e\u0441\u044c \u043d\u0430 FastAPI, SQLAlchemy 2.0 \u0438 Aiogram.",
+      "skillsTitle": "\u041d\u0430\u0432\u044b\u043a\u0438 \u0438 \u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
+      "contactTitle": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b"
+    },
+    "footer": {
+      "copy": "\u00a9 2026 \u041f\u043e\u0440\u0442\u0444\u043e\u043b\u0438\u043e"
+    }
+  }
+}

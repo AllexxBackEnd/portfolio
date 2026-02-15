@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Portfolio{% endblock %}</title>
+    <meta name="description" content="Python Backend Developer — FastAPI, SQLAlchemy, Aiogram">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Python Backend Developer — FastAPI, SQLAlchemy, Aiogram">
+    <meta property="og:image" content="/assets/img/global/og-image.jpg">
+    <link rel="icon" href="/assets/img/global/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/colors.css">
+    <script>
+        (function() {
+            var theme = localStorage.getItem('theme') || 'midnight';
+            document.body ? document.body.className = 'scheme-' + theme
+                         : document.addEventListener('DOMContentLoaded', function() {
+                             document.body.classList.add('scheme-' + theme);
+                           });
+        })();
+    </script>
+</head>
+<body class="scheme-midnight">
+    <script>
+        (function() {
+            var theme = localStorage.getItem('theme') || 'midnight';
+            document.body.className = 'scheme-' + theme;
+        })();
+    </script>
+
+    {% block content %}{% endblock %}
+
+    <script src="/assets/js/siema.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/animations.js"></script>
+</body>
+</html>
