@@ -198,8 +198,11 @@ hr {
 @media (max-width: 600px) {
   .hero {
     width: calc(100% - 40px);
-    gap: 24px;
+    gap: 20px;
     padding: 24px 0 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 .hero__image {
@@ -235,6 +238,15 @@ hr {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .hero__links {
+    justify-content: center;
+  }
+  .hero__text {
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -291,6 +303,13 @@ hr {
     width: calc(100% - 40px);
     gap: 8px;
     padding: 12px 0 20px;
+  }
+  .nav-btn {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+  .nav-btn__icon {
+    font-size: 0.9rem;
   }
 }
 
@@ -498,8 +517,11 @@ body.scheme-forest .project-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 .lang-toggle {
   cursor: pointer;
   font-size: 0.9rem;
-  min-width: 36px;
-  text-align: center;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .theme-toggle .theme-icon {
   font-size: 1.1rem;
@@ -541,8 +563,10 @@ body.scheme-forest .project-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 @media (max-width: 600px) {
   .about {
     width: calc(100% - 40px);
-    gap: 24px;
+    gap: 20px;
     padding: 20px 0 32px;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .about__image {
@@ -551,8 +575,7 @@ body.scheme-forest .project-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 @media (max-width: 600px) {
   .about__image {
-    width: 100%;
-    max-width: 200px;
+    width: 160px;
   }
 }
 .about__image img {
@@ -561,7 +584,7 @@ body.scheme-forest .project-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 .about__text {
   flex: 1;
-  min-width: 280px;
+  min-width: 0;
 }
 .about__text h2 {
   font-size: 1.25rem;
@@ -621,6 +644,30 @@ body.scheme-forest .project-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 @media (max-width: 600px) {
   .top .links {
     display: none;
+  }
+  .top {
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+    padding-bottom: 12px;
+  }
+  .project-card__body {
+    padding: 12px;
+  }
+  .project-card__desc {
+    font-size: 0.8rem;
+  }
+  .tech-tag {
+    font-size: 0.7rem;
+    padding: 1px 8px;
+  }
+  a.cta-project {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+  }
+  .site-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
   }
 }
 
